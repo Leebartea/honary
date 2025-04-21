@@ -1,0 +1,52 @@
+html {
+    background-color: plum;
+    color: wheat;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 1;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    max-width: 600px;
+    gap: 10px;
+    background-color: plum;
+}
+
+.container > * {
+    background-color: purple;
+    border: 2px ridge deeppink;
+    border-radius: 2%;
+}
+
+
+h1 {
+    font-weight: 900;
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    margin: 10px;
+}
+
+a {
+    color: lightsalmon;
+}
+
+a:hover {
+    color: deeppink;
+}
+
+.css-route {
+    display: flex;
+    justify-content: center;
+}
